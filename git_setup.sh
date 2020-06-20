@@ -11,6 +11,9 @@ set -x
 git config --global user.name "Berkay COBAN"
 git config --global user.email "${EMAIL_1}@${EMAIL_2}"
 
+# use https remotes and osxkeychain for creds
+git config --global credential.helper osxkeychain
+git config --global url.git\@github\.com\:.pushInsteadOf https://github.com/
 
 # diff-so-fancy and its color scheme
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
@@ -28,3 +31,5 @@ git config --global color.diff.whitespace "red reverse"
 
 # rebase helper
 git config --global sequence.editor interactive-rebase-tool
+
+git config --global core.editor "code --wait"

@@ -13,4 +13,5 @@ source "$ZSH/oh-my-zsh.sh"
 
 source $HOME/.bashrc
 
+export GPG_TTY=$(tty) # git
 export PATH
