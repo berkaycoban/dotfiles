@@ -4,6 +4,7 @@ tap 'homebrew/core'
 #System tools
 brew 'grep'
 brew 'unrar'
+brew 'speedtest-cli'
 
 # Development & Power tools
 cask 'iterm2'
@@ -13,6 +14,7 @@ brew 'zsh-autosuggestions'
 brew 'zsh-completions'
 brew 'git' # no force-bottle: git --exec-path doesn't work, remote helpers missing from path
 brew 'go'
+brew 'composer'
 brew 'node'
 brew 'yarn'
 brew 'wget'
