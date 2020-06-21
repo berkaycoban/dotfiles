@@ -19,7 +19,8 @@ brew 'node'
 brew 'yarn'
 brew 'wget'
 cask 'ngrok'
-brew 'postgresql'
+# brew 'postgresql'
+brew 'mysql'
 
 # Desktop Software
 cask 'spectacle'
