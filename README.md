@@ -97,8 +97,8 @@ Create database
 
 Service Start/Stop
 
-`pg_ctl -D /usr/local/var/postgres start`
-`pg_ctl -D /usr/local/var/postgres stop`
+`psql_tart`
+`psql_stop`
 
 Create/Drop an actual database
 
