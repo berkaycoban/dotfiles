@@ -19,6 +19,7 @@ brew 'node'
 brew 'yarn'
 brew 'wget'
 cask 'ngrok'
+brew 'postgresql'
 
 # Desktop Software
 cask 'spectacle'

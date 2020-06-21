@@ -88,3 +88,31 @@ Save this to ~/.ssh/config:
 Test connection:
 
     ssh -T git@github.com -i ~/.ssh/github_rsa
+
+## Postgresql
+
+Create database
+
+`initdb /usr/local/var/postgres`
+
+Service Start/Stop
+
+`pg_ctl -D /usr/local/var/postgres start`
+`pg_ctl -D /usr/local/var/postgres stop`
+
+Create/Drop an actual database
+
+`createdb databasename`
+`dropdb databasename`
+
+Connect database
+
+`psql databasename`
+
+Create/Drop a table
+
+`create database mytablename`
+`drop database mytablename`
+
+- `\list -> List all of your actual databases`
+- `\c databasename -> Connect to another database`
