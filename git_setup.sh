@@ -16,7 +16,7 @@ git config --global credential.helper osxkeychain
 git config --global url.git\@github\.com\:.pushInsteadOf https://github.com/
 
 # diff-so-fancy and its color scheme
-git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+git config --global core.pager "less --tabs=4 -RFX"
 git config --global color.ui true
 git config --global color.diff-highlight.oldNormal "red bold"
 git config --global color.diff-highlight.oldHighlight "red bold 52"
