@@ -32,6 +32,7 @@ cask 'vlc'
 cask 'skype'
 cask 'discord'
 cask 'telegram'
+cask 'the-unarchiver'
 
 # Containers 
 # cask 'docker'
