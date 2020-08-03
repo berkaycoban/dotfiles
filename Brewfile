@@ -21,6 +21,7 @@ brew 'wget'
 cask 'ngrok'
 # brew 'postgresql'
 brew 'mysql'
+brew 'heroku'
 
 # Desktop Software
 cask 'spectacle'
