@@ -23,6 +23,9 @@ cask 'ngrok'
 brew 'mysql'
 brew 'heroku'
 
+## For React Native
+brew 'watchman'
+
 # Desktop Software
 cask 'spectacle'
 cask 'firefox'
