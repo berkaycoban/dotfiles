@@ -1,4 +1,5 @@
 alias l="ls -la"
+alias c="clear"
 
 # docker aliases
 alias dr="docker run --rm -i -t $name"
@@ -17,3 +18,5 @@ alias mysql_restart="mysql.server restart"
 alias mysql_status="mysql.server status"
 alias mslogin="mysql -u berkaycoban -p"
 
+# symfony aliases
+alias create-web="composer create-project symfony/website-skeleton"
