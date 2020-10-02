@@ -20,3 +20,8 @@ alias mslogin="mysql -u berkaycoban -p"
 
 # symfony aliases
 alias create-web="composer create-project symfony/website-skeleton"
+
+# git aliases
+alias gp="git push"
+alias gc="git clone"
+alias gi="git init"
