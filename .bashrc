@@ -16,10 +16,11 @@ alias mysql_start="mysql.server start"
 alias mysql_stop="mysql.server stop"
 alias mysql_restart="mysql.server restart"
 alias mysql_status="mysql.server status"
-alias mslogin="mysql -u berkaycoban -p"
+alias mysql_login="mysql -u berkaycoban -p"
 
 # symfony aliases
 alias create-web="composer create-project symfony/website-skeleton"
+alias create-api="composer create-project symfony/skeleton"
 
 # git aliases
 alias gp="git push"
