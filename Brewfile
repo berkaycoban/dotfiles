@@ -5,6 +5,7 @@ tap 'homebrew/core'
 brew 'grep'
 brew 'unrar'
 brew 'speedtest-cli'
+cask 'the-unarchiver'
 
 # Development & Power tools
 cask 'iterm2'
@@ -21,10 +22,6 @@ brew 'wget'
 cask 'ngrok'
 # brew 'postgresql'
 brew 'mysql'
-brew 'heroku'
-
-## For React Native
-brew 'watchman'
 
 # Desktop Software
 cask 'spectacle'
@@ -36,7 +33,6 @@ cask 'vlc'
 cask 'skype'
 cask 'discord'
 cask 'telegram'
-cask 'the-unarchiver'
 
 # Containers 
 # cask 'docker'

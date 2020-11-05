@@ -34,7 +34,6 @@ defaults write 'Apple Global Domain' NSAutomaticPeriodSubstitutionEnabled 0
 ## Shell
 
 - Install oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
--
 
 ## Package manager
 
@@ -57,10 +56,8 @@ symlinked at `~/.Brewfile` and used by `brew bundle`.
 
 - iTerm2Preferences->Profiles->Other Actions->Import &mdash; berkay-iTerm2.json
   - Restart iTerm2.
-- JetBrainsMono font download.
 - VSCode:
-  - Install "Settings Sync" extension and reload.
-  - Run '> Sync: Download Settings'
+  - Run "Settings Sync"
 
 ## Git Setup
 
