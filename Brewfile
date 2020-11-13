@@ -25,11 +25,11 @@ brew 'mysql'
 
 # Desktop Software
 cask 'spectacle'
-cask 'firefox'
+# cask 'firefox'
 cask 'brave-browser'
 cask 'opera'
 cask 'bitwarden'
-cask 'vlc'
+# cask 'vlc'
 cask 'skype'
 cask 'discord'
 cask 'telegram'
