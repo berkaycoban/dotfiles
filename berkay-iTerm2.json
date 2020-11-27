@@ -1,10 +1,6 @@
 {
-  "Ansi 5 Color" : {
-    "Green Component" : "0.3137255",
-    "Blue Component" : "0.4823529",
-    "Red Component" : "0.4588235"
-  },
-  "Set Local Environment Vars" : true,
+  "Thin Strokes" : 4,
+  "Custom Directory" : "Recycle",
   "Working Directory" : "\/Users\/berkaycoban",
   "Prompt Before Closing 2" : 2,
   "Selected Text Color" : {
@@ -36,7 +32,7 @@
   "Triggers" : [
 
   ],
-  "Blend" : 0.18312926873182639,
+  "Blend" : 0.13426626421714219,
   "Show Mark Indicators" : false,
   "Mouse Reporting" : true,
   "Ansi 4 Color" : {
@@ -66,7 +62,7 @@
         "configuration" : {
           "knobs" : {
             "minwidth" : 0,
-            "base: priority" : 5,
+            "base: compression resistance" : 1,
             "shared text color" : {
               "Red Component" : 0.90000000000000002,
               "Color Space" : "sRGB",
@@ -74,7 +70,7 @@
               "Alpha Component" : 1,
               "Green Component" : 0.63
             },
-            "base: compression resistance" : 1,
+            "base: priority" : 5,
             "maxwidth" : 1.7976931348623157e+308
           },
           "layout advanced configuration dictionary value" : {
@@ -466,8 +462,8 @@
   },
   "Disable Smcup Rmcup" : false,
   "Name" : "berkay-iTerm2",
-  "Blinking Cursor" : false,
   "Guid" : "FDDA4C7A-4D0E-4F52-9763-AC9628BDDD00",
+  "Blinking Cursor" : false,
   "Ansi 1 Color" : {
     "Green Component" : "0",
     "Blue Component" : "0",
@@ -494,12 +490,12 @@
   "Automatically Log" : false,
   "Smart Cursor Color" : true,
   "Semantic History" : {
-    "action" : "command",
     "text" : "\/usr\/local\/bin\/code -r -g \\1:\\2",
+    "action" : "command",
     "editor" : "com.sublimetext.3"
   },
   "Ambiguous Double Width" : false,
-  "Blur Radius" : 1.1776788546954315,
+  "Blur Radius" : 6.7513098424330327,
   "Background Image Mode" : 0,
   "Ansi 0 Color" : {
     "Green Component" : "0",
@@ -508,7 +504,7 @@
   },
   "Cursor Type" : 1,
   "Blur" : false,
-  "Normal Font" : "JetBrainsMono-Regular 13",
+  "Normal Font" : "JetBrainsMono-Regular 12",
   "Vertical Spacing" : 1,
   "Disable Printing" : false,
   "Ansi 7 Color" : {
@@ -534,7 +530,7 @@
     "Blue Component" : "0.6039215999999999",
     "Red Component" : "0.02352941"
   },
-  "Transparency" : 0.071115561548223349,
+  "Transparency" : 0.087758392648598582,
   "Initial Text" : "",
   "Background Color" : {
     "Green Component" : "0",
@@ -545,7 +541,7 @@
   "Bound Hosts" : [
 
   ],
-  "Non Ascii Font" : "JetBrainsMono-Regular 12",
+  "Non Ascii Font" : "Menlo-Regular 11",
   "Ansi 13 Color" : {
     "Green Component" : "0.4980392",
     "Blue Component" : "0.6588235",
@@ -554,6 +550,10 @@
   "Columns" : 100,
   "Visual Bell" : true,
   "ASCII Ligatures" : false,
-  "Thin Strokes" : 4,
-  "Custom Directory" : "Recycle"
+  "Ansi 5 Color" : {
+    "Green Component" : "0.3137255",
+    "Blue Component" : "0.4823529",
+    "Red Component" : "0.4588235"
+  },
+  "Set Local Environment Vars" : true
 }
