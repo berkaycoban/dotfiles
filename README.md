@@ -31,10 +31,6 @@ defaults write 'Apple Global Domain' NSAutomaticQuoteSubstitutionEnabled 0
 defaults write 'Apple Global Domain' NSAutomaticPeriodSubstitutionEnabled 0
 ```
 
-## Shell
-
-- Install oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
-
 ## Package manager
 
 - Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
@@ -45,6 +41,10 @@ defaults write 'Apple Global Domain' NSAutomaticPeriodSubstitutionEnabled 0
 
 All software installed on the system must be listed in `.Brewfile`. This is
 symlinked at `~/.Brewfile` and used by `brew bundle`.
+
+## Shell
+
+- Install oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
 
 ## Post-Installation Configuration
 
@@ -81,10 +81,6 @@ Upload the key to GitHub. https://github.com/settings/keys :
     cat ~/.ssh/github_rsa.pub| pbcopy
 
 Save this to ~/.ssh/config:
-
-Test connection:
-
-    ssh -T git@github.com -i ~/.ssh/github_rsa
 
 ## Postgresql
 
