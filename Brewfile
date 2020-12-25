@@ -17,6 +17,7 @@ brew 'git' # no force-bottle: git --exec-path doesn't work, remote helpers missi
 # brew 'go'
 brew 'gcc'
 brew 'libomp' # openmp for parallel programming
+brew 'open-mpi' # mpi for parallel programming
 # brew 'python3'
 brew 'composer'
 brew 'node'
