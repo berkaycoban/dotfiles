@@ -33,3 +33,5 @@ git config --global color.diff.whitespace "red reverse"
 git config --global sequence.editor interactive-rebase-tool
 
 git config --global core.editor "code --wait"
+
+git config --global init.defaultBranch "main"
