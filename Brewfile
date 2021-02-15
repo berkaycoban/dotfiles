@@ -16,8 +16,8 @@ brew 'zsh-completions'
 brew 'git' # no force-bottle: git --exec-path doesn't work, remote helpers missing from path
 # brew 'go'
 brew 'gcc'
-brew 'libomp' # openmp for parallel programming
-brew 'open-mpi' # mpi for parallel programming
+# brew 'libomp' # openmp for parallel programming
+# brew 'open-mpi' # mpi for parallel programming
 # brew 'python3'
 brew 'composer'
 brew 'node'
@@ -26,6 +26,7 @@ brew 'wget'
 cask 'ngrok'
 # brew 'postgresql'
 brew 'mysql'
+brew 'mongodb-community'
 
 # Desktop Software
 cask 'spectacle'
