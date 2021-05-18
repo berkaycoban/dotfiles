@@ -18,26 +18,22 @@ brew 'git' # no force-bottle: git --exec-path doesn't work, remote helpers missi
 brew 'gcc'
 # brew 'libomp' # openmp for parallel programming
 # brew 'open-mpi' # mpi for parallel programming
-# brew 'python3'
+brew 'python3'
 brew 'composer'
 brew 'node'
-brew 'yarn'
 brew 'wget'
-cask 'ngrok'
+# cask 'ngrok'
 # brew 'postgresql'
 brew 'mysql'
 brew 'mongodb-community'
 
 # Desktop Software
 cask 'spectacle'
-# cask 'firefox'
 cask 'brave-browser'
-# cask 'opera'
-# cask 'bitwarden'
-# cask 'vlc'
-# cask 'skype'
+cask 'opera'
 cask 'discord'
 cask 'telegram'
+cask 'spotify'
 
 # Containers 
 # cask 'docker'
