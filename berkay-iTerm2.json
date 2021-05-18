@@ -8,7 +8,7 @@
     "Blue Component" : "0",
     "Red Component" : "0"
   },
-  "Rows" : 35,
+  "Rows" : 31,
   "Ansi 11 Color" : {
     "Green Component" : "0.9137255",
     "Blue Component" : "0.3098039",
@@ -61,8 +61,8 @@
         "class" : "iTermStatusBarJobComponent",
         "configuration" : {
           "knobs" : {
-            "minwidth" : 0,
             "base: compression resistance" : 1,
+            "base: priority" : 5,
             "shared text color" : {
               "Red Component" : 0.90000000000000002,
               "Color Space" : "sRGB",
@@ -70,7 +70,7 @@
               "Alpha Component" : 1,
               "Green Component" : 0.63
             },
-            "base: priority" : 5,
+            "minwidth" : 0,
             "maxwidth" : 1.7976931348623157e+308
           },
           "layout advanced configuration dictionary value" : {
@@ -490,8 +490,8 @@
   "Automatically Log" : false,
   "Smart Cursor Color" : true,
   "Semantic History" : {
-    "text" : "\/usr\/local\/bin\/code -r -g \\1:\\2",
     "action" : "command",
+    "text" : "\/usr\/local\/bin\/code -r -g \\1:\\2",
     "editor" : "com.sublimetext.3"
   },
   "Ambiguous Double Width" : false,
@@ -504,7 +504,7 @@
   },
   "Cursor Type" : 1,
   "Blur" : false,
-  "Normal Font" : "JetBrainsMono-Regular 12",
+  "Normal Font" : "Menlo-Regular 11",
   "Vertical Spacing" : 1,
   "Disable Printing" : false,
   "Ansi 7 Color" : {
@@ -547,7 +547,7 @@
     "Blue Component" : "0.6588235",
     "Red Component" : "0.6784314"
   },
-  "Columns" : 100,
+  "Columns" : 99,
   "Visual Bell" : true,
   "ASCII Ligatures" : false,
   "Ansi 5 Color" : {
