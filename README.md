@@ -19,6 +19,9 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "Always" # show scroll
 defaults write com.apple.finder AppleShowAllFiles true   # Show hidden files
 defaults write com.apple.finder ShowStatusBar -bool true # Show Finder statusbar
 
+# disable show recent apps
+defaults write com.apple.dock show-recents 0
+
 # Default Finder location is the home folder
 defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
   defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
@@ -32,6 +35,9 @@ defaults write 'Apple Global Domain' NSAutomaticPeriodSubstitutionEnabled 0
 defaults write 'Apple Global Domain' NSAutomaticSpellingCorrectionEnabled 0
 defaults write 'Apple Global Domain' NSAutomaticTextCompletionEnabled 0
 defaults write 'Apple Global Domain' WebAutomaticSpellingCorrectionEnabled 0
+
+Save screenshoots to the ~/screenshots folder
+mkdir ${HOME}/screenshoots && defaults write com.apple.screencapture location -string "${HOME}/screenshoots"
 ```
 
 ## Package manager
