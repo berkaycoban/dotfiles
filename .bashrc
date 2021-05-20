@@ -38,3 +38,6 @@ alias mongod="sudo mongod --dbpath /Users/berkaycoban/data/db"
 
 # gcc -fopenmp >> for parallel programming
 # alias gcc-parallel="gcc -Xpreprocessor -fopenmp ${file_name} -lomp"
+
+# Get Weather
+alias weather="curl wttr.in/Izmir"
