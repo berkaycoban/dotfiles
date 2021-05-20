@@ -20,7 +20,7 @@ defaults write com.apple.finder AppleShowAllFiles true   # Show hidden files
 defaults write com.apple.finder ShowStatusBar -bool true # Show Finder statusbar
 
 # disable show recent apps
-defaults write com.apple.dock show-recents 0
+defaults write com.apple.dock show-recents -bool false
 
 # Default Finder location is the home folder
 defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
@@ -36,8 +36,11 @@ defaults write 'Apple Global Domain' NSAutomaticSpellingCorrectionEnabled 0
 defaults write 'Apple Global Domain' NSAutomaticTextCompletionEnabled 0
 defaults write 'Apple Global Domain' WebAutomaticSpellingCorrectionEnabled 0
 
-Save screenshoots to the ~/screenshots folder
+# Save screenshoots to the ~/screenshots folder
 mkdir ${HOME}/screenshoots && defaults write com.apple.screencapture location -string "${HOME}/screenshoots"
+
+# Resize dock icon size
+defaults write com.apple.dock tilesize -int 50
 ```
 
 ## Package manager
@@ -53,7 +56,7 @@ symlinked at `~/.Brewfile` and used by `brew bundle`.
 
 ## Shell
 
-- Install oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
+- Run .install_zsh.sh
 
 ## Post-Installation Configuration
 
@@ -91,30 +94,6 @@ Upload the key to GitHub. https://github.com/settings/keys :
 
 Save this to ~/.ssh/config:
 
-## Postgresql
+Test connection:
 
-Create database
-
-`initdb /usr/local/var/postgres`
-
-Service Start/Stop
-
-`psql_tart`
-`psql_stop`
-
-Create/Drop an actual database
-
-`createdb databasename`
-`dropdb databasename`
-
-Connect database
-
-`psql databasename`
-
-Create/Drop a table
-
-`create database mytablename`
-`drop database mytablename`
-
-- `\list -> List all of your actual databases`
-- `\c databasename -> Connect to another database`
+    ssh -T git@github.com -i ~/.ssh/github_rsa

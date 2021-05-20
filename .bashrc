@@ -4,11 +4,6 @@ alias c="clear"
 # brew run on m1
 alias brew="arch -arm64 brew"
 
-# git aliases
-alias gp="git push"
-alias gc="git clone"
-alias gi="git init"
-
 # php
 alias php-start="brew services start php@7.4"
 alias php-stop="brew services stop php@7.4"
@@ -43,5 +38,3 @@ alias mongod="sudo mongod --dbpath /Users/berkaycoban/data/db"
 
 # gcc -fopenmp >> for parallel programming
 # alias gcc-parallel="gcc -Xpreprocessor -fopenmp ${file_name} -lomp"
-
-
