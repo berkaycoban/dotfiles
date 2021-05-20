@@ -21,3 +21,7 @@ source $HOME/.bashrc
 
 export GPG_TTY=$(tty) # git
 export PATH
+
+# Symlinked php 
+export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"

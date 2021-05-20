@@ -56,7 +56,7 @@ symlinked at `~/.Brewfile` and used by `brew bundle`.
 
 ## Shell
 
-- Run .install_zsh.sh
+- Run 2 times .install_zsh.sh
 
 ## Post-Installation Configuration
 
