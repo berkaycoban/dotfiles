@@ -4,7 +4,6 @@
 
 > TODO: find `defaults write` commands for these.
 
-- Keyboard &rarr; Text &rarr; Uncheck autocorrect and such settings.
 - Remove useless items from the dock
 - Drag `Downloads` folder next to the Trash on the Dock.
   - Right click &rarr; Sort by Date Added.
@@ -15,6 +14,7 @@ Tweaks:
 ```
 # Show date on menu bar (format: 20 May Thu 10:05)
 defaults write com.apple.menuextra.clock DateFormat -string "d MMMM EEE HH:mm"
+
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always" # show scrollbar always
 defaults write com.apple.finder AppleShowAllFiles true   # Show hidden files
 defaults write com.apple.finder ShowStatusBar -bool true # Show Finder statusbar
@@ -25,10 +25,13 @@ defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
 
 chflags nohidden ~/Library                               # Unhide ~/Library
 
-# disable smart quotes and dashes
+# disable smart quotes and dashes, and autocorrect, autoperiod and suggestions
 defaults write 'Apple Global Domain' NSAutomaticDashSubstitutionEnabled 0
 defaults write 'Apple Global Domain' NSAutomaticQuoteSubstitutionEnabled 0
 defaults write 'Apple Global Domain' NSAutomaticPeriodSubstitutionEnabled 0
+defaults write 'Apple Global Domain' NSAutomaticSpellingCorrectionEnabled 0
+defaults write 'Apple Global Domain' NSAutomaticTextCompletionEnabled 0
+defaults write 'Apple Global Domain' WebAutomaticSpellingCorrectionEnabled 0
 ```
 
 ## Package manager
