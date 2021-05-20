@@ -4,8 +4,6 @@
 
 > TODO: find `defaults write` commands for these.
 
-- Show battery percentage on menu bar
-- Show date on menu bar
 - Keyboard &rarr; Text &rarr; Uncheck autocorrect and such settings.
 - Remove useless items from the dock
 - Drag `Downloads` folder next to the Trash on the Dock.
@@ -15,6 +13,8 @@
 Tweaks:
 
 ```
+# Show date on menu bar (format: 20 May Thu 10:05)
+defaults write com.apple.menuextra.clock DateFormat -string "d MMMM EEE HH:mm"
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always" # show scrollbar always
 defaults write com.apple.finder AppleShowAllFiles true   # Show hidden files
 defaults write com.apple.finder ShowStatusBar -bool true # Show Finder statusbar
