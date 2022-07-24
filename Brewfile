@@ -2,9 +2,9 @@ tap 'homebrew/bundle'
 tap 'homebrew/core'
 
 #System tools
-brew 'grep'
+# brew 'grep'
 brew 'unrar'
-brew 'speedtest-cli'
+# brew 'speedtest-cli'
 cask 'the-unarchiver'
 
 # Development & Power tools
@@ -16,21 +16,21 @@ brew 'git' # no force-bottle: git --exec-path doesn't work, remote helpers missi
 # brew 'libomp' # openmp for parallel programming
 # brew 'open-mpi' # mpi for parallel programming
 # brew 'python3'
-brew 'composer'
+# brew 'composer'
 brew 'node'
-brew 'wget'
+# brew 'wget'
 # cask 'ngrok'
 # brew 'postgresql'
-brew 'php@7.4'
-brew 'mysql'
+# brew 'php@7.4'
+# brew 'mysql'
 brew 'mongodb-community'
 
 # Desktop Software
-cask 'spectacle'
+cask 'rectangle'
 cask 'brave-browser'
-cask 'opera'
-cask 'discord'
-cask 'telegram'
+# cask 'opera'
+# cask 'discord'
+# cask 'telegram'
 cask 'spotify'
 
 # Containers 
