@@ -1,5 +1,4 @@
 export ZSH=$HOME/.oh-my-zsh
-
 ZSH_THEME="robbyrussell"
 
 plugins=(
@@ -9,15 +8,24 @@ plugins=(
   zsh-syntax-highlighting
 )
 
-source "$ZSH/oh-my-zsh.sh"
+source $ZSH/oh-my-zsh.sh
 
-  # basic prompt
-  PROMPT='%{$fg[green]%}%c%{$reset_color%}$(git_prompt_info) %{$fg[yellow]%}%(!.#.$)%{$reset_color%} '
+# Basic prompt
+PROMPT='%{$fg[green]%}%c%{$reset_color%}$(git_prompt_info) %{$fg[yellow]%}%(!.#.$)%{$reset_color%} '
 
-  export UPDATE_ZSH_DAYS=7
-	export DISABLE_UPDATE_PROMPT=true # accept updates by default
+# Alias
+alias l="ls -la"
+alias c="clear"
 
-source $HOME/.bashrc
+# Auto updates
+export UPDATE_ZSH_DAYS=7
+export DISABLE_UPDATE_PROMPT=true
 
-export GPG_TTY=$(tty) # git
-export PATH
+# Yarn global packages
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# LANG for React Native / CocoaPods (optional)
+export LANG=en_US.UTF-8
+
+# fnm (Fast Node Manager)
+eval "$(fnm env --use-on-cd)"
