@@ -1,17 +1,12 @@
-tap "homebrew/bundle"
-tap "homebrew/core"
-
 # CLI Tools
 brew "git"                # Distributed version control system for managing source code.
 brew "node"               # JavaScript runtime used for backend and frontend development.
 brew "fnm"                # Fast Node.js version manager (modern alternative to nvm)
-brew "mongodb-community"  # Community edition of MongoDB, a NoSQL document database.
 brew "jq"                 # Lightweight command-line tool for processing and querying JSON data.
 brew "yq"                 # Command-line YAML processor, similar to jq but for YAML files.
 brew "fzf"                # Command-line fuzzy finder to quickly search through files and history.
 brew "htop"               # Interactive process viewer and system monitor.
 brew "diff-so-fancy"      # Improved diff output that’s easier to read in the terminal.
-brew "romkatv/powerlevel10k/powerlevel10k"   # Powerlevel10k theme for Oh My Zsh
 brew "httpie"   # Modern, user-friendly command-line HTTP client (cURL alternative)
 
 # Apps
