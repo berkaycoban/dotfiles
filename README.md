@@ -13,7 +13,11 @@ A fully automated setup for configuring your development environment on a fresh 
     - Right-click it → Sort by Date Added.
 
 - **Finder Sidebar**:
+
   - Drag your `$HOME` folder into the Finder sidebar for quick access.
+
+- Install OhMyZSH
+  <https://ohmyz.sh/>
 
 > After completing these manual steps, continue with the automated setup.
 
