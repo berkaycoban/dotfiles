@@ -23,5 +23,4 @@ cask "bruno"                  # Open-source API client alternative to Postman.
 cask "vlc"                    # Versatile media player supporting most audio and video formats.
 cask "aldente"                # Battery charge limiter to extend MacBook battery health.
 cask "tableplus"              # Modern, native GUI tool for managing SQL and NoSQL databases
-cask "termius"                # Modern SSH client with cloud sync.
 cask "the-unarchiver"         # Utility to open various archive file formats.
